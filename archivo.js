@@ -15,5 +15,5 @@ var datos = [];
 function agregar(){
     datos.push(nuevoSujeto);
     console.log(datos);
-    document.getElementById("tabla").innerHTML +=
-}
+    document.getElementById("tabla").innerHTML += '<tbody><td>'+nuevoSujeto.nombre+'</td><td>'+nuevoSujeto.edad+'</td></tbody>'; 
+};
